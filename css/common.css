@@ -1,0 +1,88 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+ul, li, h1, h2, h3, p, img, hr, iframe, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1000px;
+
+    font-family: '游ゴシック', 'Yu Gothic', 'ＭＳ ゴシック', 'MS Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', '游ゴシック体', 'YuGothic', 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro';
+}
+
+/*Button to top of page */
+p.top {
+    position: fixed;
+    right: 0;
+    bottom: 120px;
+    font-size: 20px;
+}
+a.top {
+	background-color: #6e5959;
+}
+
+#header {
+    /* display: block; */
+    background-color: #000000;
+    overflow: auto;
+}
+
+/* logo */
+img#logo {
+    float: left;
+    margin: 9px auto 5px 20px;
+    width: auto;
+    height: 60px;
+}
+
+ul.menu {
+    float: right;
+    margin: 20px 20px 20px auto;
+}
+li.menu {
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 18px;
+		font-weight: bold;
+}
+/*buttons */
+a.button {
+    color: #e9e8eb;
+    text-decoration: none;
+    border: solid 1px #be0000;
+    padding: 4px;
+    box-shadow: 0 0 2px 2px #be0000; 
+    transition: box-shadow 0.3s ease; /*  for a smooth transition */
+  }
+  
+  a.button:hover {
+    background-color: #3c1616;
+    box-shadow: 0 0 10px 4px #be0000; /* Change the blur radius on hover for a stronger glow */
+  }
+
+
+#footer {
+    clear: both;
+    background-color: #1a0303;
+    overflow: auto;
+   
+}
+p#copyright {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Monotype Corsiva', "Lucida Calligraphy", "Lucida Handwriting", "Brush Script MT", cursive, fantasy; /* copyrightはサインだと考え、少し派手な英文字にする */
+}
+
+
+.pink {
+    color: #ad0000;
+}
+
+/*highlight  */
+#highlight {
+    background-color: #3f0202;
+}

@@ -1,0 +1,56 @@
+body {
+    background: url(../images/link_back.jpg) no-repeat;
+    background-size: 100% auto;
+    color: #f8f8f8;
+    background-color: black;
+}
+
+
+h1 {
+	font-family: 'Monotype Corsiva', 'Luminari', cursive, 'Noteworthy', 'Georgia';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+hr#title {
+    width: 200px;
+    margin: 5px auto 30px auto;
+}
+
+
+div#text {
+    clear: both;
+    margin-left: 25%;
+    margin-right: 20%;
+    padding-bottom: 80px;
+}
+
+h2 {
+    border-left: solid 10px #b30000;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+hr.link {
+    border: solid 0.5px #ff0000;
+    margin-bottom: 25px;
+    margin-top: 25px;
+	margin-right: 5%;
+}
+
+img.sns {
+    width: 10%;
+    height: auto;
+    margin-right: 50px
+}
+
+img#fc {
+    width: 50%;
+    height: auto;
+}
+
+img.shop, img.dl {
+    width: 15%;
+    height: 5%;
+    margin-right: 25px;
+}
